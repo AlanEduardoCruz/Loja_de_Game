@@ -32,7 +32,7 @@ public class Produto {
 	private double preco;
 	
 	@ManyToOne
-	@JsonIgnoreProperties("Postagem")
+	@JsonIgnoreProperties("Categorias")
 	private Categoria categoria;
 
 	public Long getId() {
